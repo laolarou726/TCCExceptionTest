@@ -8,5 +8,11 @@
         <TextBlock FontWeight="Bold" Text="2"
                    Foreground="White"
                    FontSize="50"/>
+
+        <TransitioningContentControl x:Name="TCC"
+                                     Width="50"
+                                     Height="50"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Center"/>
     </Panel>
 </UserControl>

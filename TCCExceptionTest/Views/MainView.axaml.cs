@@ -21,7 +21,10 @@ public partial class MainView : UserControl
 
         while (true)
         {
-            await Dispatcher.UIThread.InvokeAsync(() => TCC.Content = flag ? _tccView1 : _tccView2);
+            await Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                TCC.Content = flag ? _tccView1 : _tccView2;
+            });
 
             flag = !flag;
 
