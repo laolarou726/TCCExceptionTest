@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCCExceptionTest", "TCCExceptionTest\TCCExceptionTest.csproj", "{BC6866F2-8E5D-47D8-8B4A-476C4B01D87E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCCExceptionTest.Desktop", "TCCExceptionTest.Desktop\TCCExceptionTest.Desktop.csproj", "{18045A0A-2156-455A-8D7C-A93D99C3BD3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC6866F2-8E5D-47D8-8B4A-476C4B01D87E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6866F2-8E5D-47D8-8B4A-476C4B01D87E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6866F2-8E5D-47D8-8B4A-476C4B01D87E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6866F2-8E5D-47D8-8B4A-476C4B01D87E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18045A0A-2156-455A-8D7C-A93D99C3BD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18045A0A-2156-455A-8D7C-A93D99C3BD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18045A0A-2156-455A-8D7C-A93D99C3BD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18045A0A-2156-455A-8D7C-A93D99C3BD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15FBD471-4F43-4E58-B2B1-C5C90E4C8E4E}
+	EndGlobalSection
+EndGlobal
