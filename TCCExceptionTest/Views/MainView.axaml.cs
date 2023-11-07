@@ -19,7 +19,7 @@ public partial class MainView : UserControl
     {
         var flag = true;
 
-        while (true)
+        while (!MainWindow.Cts.IsCancellationRequested)
         {
             await Dispatcher.UIThread.InvokeAsync(() =>
             {

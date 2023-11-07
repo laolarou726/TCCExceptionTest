@@ -9,8 +9,8 @@ namespace TCCExceptionTest.Views
 {
     public partial class TCCView2 : UserControl
     {
-        private readonly Rectangle _rectangle1 = new() { Fill = new SolidColorBrush(Colors.Aqua) };
-        private readonly Rectangle _rectangle2 = new() { Fill = new SolidColorBrush(Colors.BlueViolet) };
+        private readonly Rectangle _rectangle1 = new() { Fill = new SolidColorBrush(Colors.Aqua), Tag = "TCCView2-1" };
+        private readonly Rectangle _rectangle2 = new() { Fill = new SolidColorBrush(Colors.BlueViolet), Tag = "TCCView2-2" };
 
         public TCCView2()
         {
@@ -25,7 +25,7 @@ namespace TCCExceptionTest.Views
             {
                 var flag = true;
 
-                while (true)
+                while (!MainWindow.Cts.IsCancellationRequested)
                 {
                     await Dispatcher.UIThread.InvokeAsync(() =>
                     {
